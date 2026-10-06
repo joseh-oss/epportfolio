@@ -1,0 +1,609 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kioko Joseph Mbithi | IT Professional Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <!-- Animated Background Canvas -->
+    <canvas id="networkCanvas"></canvas>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#home" class="nav-logo">
+                <span class="logo-bracket">&lt;</span>KJM<span class="logo-bracket">/&gt;</span>
+            </a>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#education" class="nav-link">Education</a></li>
+                <li><a href="#experience" class="nav-link">Experience</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#services" class="nav-link">Services</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- ===== HERO SECTION ===== -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="hero-text" data-animate="fade-right">
+                <p class="hero-greeting">Hello, I'm</p>
+                <h1 class="hero-name">Kioko Joseph Mbithi</h1>
+                <div class="hero-tags">
+                    <span class="tag">Information Technology Student</span>
+                    <span class="tag">Networking & IT Support</span>
+                    <span class="tag">Cybersecurity</span>
+                    <span class="tag">Graphic Design</span>
+                </div>
+                <p class="hero-intro">An aspiring IT professional passionate about networking, IT infrastructure, cybersecurity, troubleshooting, and practical technology solutions.</p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">
+                        <i class="fas fa-briefcase"></i> View My Work
+                    </a>
+                    <a href="#services" class="btn btn-secondary">
+                        <i class="fas fa-cogs"></i> My Services
+                    </a>
+                    <a href="#contact" class="btn btn-outline">
+                        <i class="fas fa-envelope"></i> Contact Me
+                    </a>
+                </div>
+            </div>
+            <div class="hero-image" data-animate="fade-left">
+                <div class="profile-frame">
+                    <div class="profile-glow"></div>
+                                        <img src="images/profile-dp.png" alt="Kioko Joseph Mbithi" class="profile-img">
+                    <div class="profile-ring"></div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="mouse">
+                <div class="wheel"></div>
+            </div>
+            <p>Scroll to explore</p>
+        </div>
+    </section>
+
+    <!-- ===== ABOUT SECTION ===== -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-title" data-animate="fade-up">
+                <span class="section-number">01</span>About Me
+            </h2>
+            <div class="about-grid">
+                <div class="about-text" data-animate="fade-right">
+                    <p class="about-bio">I'm Kioko Joseph Mbithi, a Bachelor of Science in Information Technology student at Kirinyaga University, with a strong interest in technology, networking, and practical IT solutions. I enjoy learning how systems, networks, and digital technologies work and using that knowledge to solve real-world problems.</p>
+                    <p class="about-bio">My main interests include computer networking, IT infrastructure, cybersecurity, technology troubleshooting, and digital innovation. I'm also passionate about football, technology, and exploring new digital tools that can make everyday tasks easier.</p>
+                    <p class="about-bio">My goal is to build a successful career in IT, particularly networking and infrastructure, while continuously developing my technical skills. I aspire to become a skilled IT professional who can design, maintain, and troubleshoot reliable technology systems and eventually take on larger technical and leadership roles.</p>
+                </div>
+                <div class="about-stats" data-animate="fade-left">
+                    <div class="stat-card">
+                        <div class="stat-icon"><i class="fas fa-graduation-cap"></i></div>
+                        <div class="stat-info">
+                            <h4>BSc. Information Technology</h4>
+                            <p>Kirinyaga University</p>
+                        </div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-icon"><i class="fas fa-network-wired"></i></div>
+                        <div class="stat-info">
+                            <h4>Networking & IT Infrastructure</h4>
+                            <p>Practical exposure</p>
+                        </div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-icon"><i class="fas fa-shield-alt"></i></div>
+                        <div class="stat-info">
+                            <h4>Cybersecurity</h4>
+                            <p>Security awareness & practices</p>
+                        </div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-icon"><i class="fas fa-tools"></i></div>
+                        <div class="stat-info">
+                            <h4>IT Troubleshooting</h4>
+                            <p>Hardware & software support</p>
+                        </div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-icon"><i class="fas fa-palette"></i></div>
+                        <div class="stat-info">
+                            <h4>Graphic Design</h4>
+                            <p>Creative digital media</p>
+                        </div>
+                    </div>
+                    <div class="stat-card highlight-card">
+                        <div class="stat-icon"><i class="fas fa-clock"></i></div>
+                        <div class="stat-info">
+                            <h4>8 Months Combined IT Attachment</h4>
+                            <p>ICT Authority – Nanyuki Office</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Career Pathway -->
+            <div class="career-pathway" data-animate="fade-up">
+                <h3 class="pathway-title">Career Development Pathway</h3>
+                <div class="pathway-track">
+                    <div class="pathway-step">
+                        <div class="step-dot"></div>
+                        <div class="step-content">
+                            <h4>Networking</h4>
+                            <p>Building strong foundations in network setup, configuration & troubleshooting</p>
+                        </div>
+                    </div>
+                    <div class="pathway-connector"></div>
+                    <div class="pathway-step">
+                        <div class="step-dot"></div>
+                        <div class="step-content">
+                            <h4>IT Infrastructure</h4>
+                            <p>Designing & maintaining reliable technology systems</p>
+                        </div>
+                    </div>
+                    <div class="pathway-connector"></div>
+                    <div class="pathway-step">
+                        <div class="step-dot"></div>
+                        <div class="step-content">
+                            <h4>Cybersecurity</h4>
+                            <p>Protecting systems & data with security best practices</p>
+                        </div>
+                    </div>
+                    <div class="pathway-connector"></div>
+                    <div class="pathway-step">
+                        <div class="step-dot"></div>
+                        <div class="step-content">
+                            <h4>Technical Leadership</h4>
+                            <p>Leading technology teams & driving innovation</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== EDUCATION SECTION ===== -->
+    <section id="education" class="section section-alt">
+        <div class="container">
+            <h2 class="section-title" data-animate="fade-up">
+                <span class="section-number">02</span>Education
+            </h2>
+            <div class="timeline">
+                <div class="timeline-item" data-animate="fade-right">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-card">
+                        <span class="timeline-date">2010 – 2018</span>
+                        <h3 class="timeline-title">Kilala AIC Primary School</h3>
+                        <p class="timeline-desc">Primary education — building the academic foundation.</p>
+                    </div>
+                </div>
+                <div class="timeline-item" data-animate="fade-left">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-card">
+                        <span class="timeline-date">2019 – 2022</span>
+                        <h3 class="timeline-title">Mbooni Boys High School</h3>
+                        <p class="timeline-desc">Secondary education — developing analytical and technical thinking.</p>
+                    </div>
+                </div>
+                <div class="timeline-item current" data-animate="fade-right">
+                    <div class="timeline-dot active"></div>
+                    <div class="timeline-card featured">
+                        <span class="timeline-badge">Current</span>
+                        <span class="timeline-date">2023 – Expected October 2027</span>
+                        <h3 class="timeline-title">Kirinyaga University</h3>
+                        <p class="timeline-desc">Bachelor of Science in Information Technology — deepening expertise in networking, infrastructure, cybersecurity, and practical IT solutions.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== EXPERIENCE SECTION ===== -->
+    <section id="experience" class="section">
+        <div class="container">
+            <h2 class="section-title" data-animate="fade-up">
+                <span class="section-number">03</span>Experience
+            </h2>
+            <div class="experience-wrapper">
+                <div class="experience-card" data-animate="fade-up">
+                    <div class="exp-header">
+                        <div class="exp-icon">
+                            <i class="fas fa-building"></i>
+                        </div>
+                        <div class="exp-info">
+                            <h3>ICT Authority – Nanyuki Office</h3>
+                            <p class="exp-role">IT Attachment / IT Support</p>
+                        </div>
+                    </div>
+                    <div class="exp-periods">
+                        <div class="period">
+                            <i class="fas fa-calendar-alt"></i>
+                            <span>May 2025 – August 2025</span>
+                        </div>
+                        <div class="period">
+                            <i class="fas fa-calendar-alt"></i>
+                            <span>April 2026 – August 2026</span>
+                        </div>
+                    </div>
+                    <div class="exp-total">
+                        <i class="fas fa-clock"></i>
+                        <span>Total combined attachment: <strong>~8 months</strong></span>
+                    </div>
+                    <p class="exp-desc">Practical hands-on IT experience involving exposure to real-world IT infrastructure, networking, troubleshooting, and technology support in a government ICT environment.</p>
+                </div>
+
+                <div class="project-card" data-animate="fade-up">
+                    <div class="project-badge">
+                        <i class="fas fa-star"></i> Major Project
+                    </div>
+                    <h3 class="project-title">NOFBI Project</h3>
+                    <p class="project-subtitle">National Optic Fibre Backbone Infrastructure</p>
+                    <p class="project-desc">Major IT field project undertaken during the ICT Authority attachment — practical exposure to national-level networking and telecommunications infrastructure, fibre optic backbone deployment, and connectivity implementation.</p>
+                    <div class="project-tags">
+                        <span>Fibre Optic</span>
+                        <span>Network Infrastructure</span>
+                        <span>Telecommunications</span>
+                        <span>Field Work</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== SKILLS SECTION ===== -->
+    <section id="skills" class="section section-alt">
+        <div class="container">
+            <h2 class="section-title" data-animate="fade-up">
+                <span class="section-number">04</span>Skills
+            </h2>
+
+            <h3 class="skills-category-title" data-animate="fade-up">Technical Skills</h3>
+            <div class="skills-grid" data-animate="fade-up">
+                <!-- Computer Networking -->
+                <div class="skill-card">
+                    <div class="skill-icon"><i class="fas fa-network-wired"></i></div>
+                    <h4>Computer Networking</h4>
+                    <div class="skill-bar"><div class="skill-fill" data-level="60"></div></div>
+                    <ul class="skill-items">
+                        <li>Network setup</li>
+                        <li>Network troubleshooting</li>
+                        <li>Network infrastructure</li>
+                        <li>Connectivity troubleshooting</li>
+                    </ul>
+                </div>
+                <!-- IT Troubleshooting -->
+                <div class="skill-card">
+                    <div class="skill-icon"><i class="fas fa-tools"></i></div>
+                    <h4>IT Troubleshooting</h4>
+                    <div class="skill-bar"><div class="skill-fill" data-level="58"></div></div>
+                    <ul class="skill-items">
+                        <li>Diagnosing technical problems</li>
+                        <li>Hardware troubleshooting</li>
+                        <li>Software troubleshooting</li>
+                        <li>General IT support</li>
+                    </ul>
+                </div>
+                <!-- Cybersecurity -->
+                <div class="skill-card">
+                    <div class="skill-icon"><i class="fas fa-shield-alt"></i></div>
+                    <h4>Cybersecurity</h4>
+                    <div class="skill-bar"><div class="skill-fill" data-level="42"></div></div>
+                    <ul class="skill-items">
+                        <li>Basic cybersecurity practices</li>
+                        <li>System security awareness</li>
+                        <li>Network security concepts</li>
+                    </ul>
+                </div>
+                <!-- Hardware & Software -->
+                <div class="skill-card">
+                    <div class="skill-icon"><i class="fas fa-desktop"></i></div>
+                    <h4>Hardware & Software Maintenance</h4>
+                    <div class="skill-bar"><div class="skill-fill" data-level="55"></div></div>
+                    <ul class="skill-items">
+                        <li>Computer hardware maintenance</li>
+                        <li>Software installation & maintenance</li>
+                        <li>System troubleshooting</li>
+                    </ul>
+                </div>
+                <!-- Graphic Design -->
+                <div class="skill-card">
+                    <div class="skill-icon"><i class="fas fa-palette"></i></div>
+                    <h4>Graphic Design</h4>
+                    <div class="skill-bar"><div class="skill-fill" data-level="52"></div></div>
+                    <ul class="skill-items">
+                        <li>Flyer design</li>
+                        <li>Poster design</li>
+                        <li>Event graphics</li>
+                        <li>Digital promotional materials</li>
+                        <li>Videographics</li>
+                    </ul>
+                </div>
+            </div>
+
+            <h3 class="skills-category-title" data-animate="fade-up">Soft Skills</h3>
+            <div class="soft-skills" data-animate="fade-up">
+                <div class="soft-skill-pill"><i class="fas fa-comments"></i> Communication</div>
+                <div class="soft-skill-pill"><i class="fas fa-lightbulb"></i> Problem-solving</div>
+                <div class="soft-skill-pill"><i class="fas fa-users"></i> Teamwork</div>
+                <div class="soft-skill-pill"><i class="fas fa-sync-alt"></i> Adaptability</div>
+                <div class="soft-skill-pill"><i class="fas fa-brain"></i> Practical Thinking</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== SERVICES SECTION ===== -->
+    <section id="services" class="section">
+        <div class="container">
+            <h2 class="section-title" data-animate="fade-up">
+                <span class="section-number">05</span>Services
+            </h2>
+            <div class="services-grid" data-animate="fade-up">
+                <div class="service-card">
+                    <div class="service-icon"><i class="fas fa-network-wired"></i></div>
+                    <h4>Network Setup & Troubleshooting</h4>
+                    <p>Network configuration, connectivity troubleshooting, basic network infrastructure setup, and diagnosing network-related problems.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon"><i class="fas fa-headset"></i></div>
+                    <h4>IT Support & Troubleshooting</h4>
+                    <p>Identification and resolution of common hardware, software, operating system, and general IT problems.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon"><i class="fas fa-desktop"></i></div>
+                    <h4>Hardware & Software Maintenance</h4>
+                    <p>Computer maintenance, software installation, system configuration, hardware troubleshooting, and general technical support.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon"><i class="fas fa-shield-alt"></i></div>
+                    <h4>Cybersecurity</h4>
+                    <p>Basic cybersecurity support, security awareness, system protection practices, and assistance with identifying common security issues.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon"><i class="fas fa-paint-brush"></i></div>
+                    <h4>Graphic Design</h4>
+                    <p>Creation of professional flyers, posters, event graphics, promotional materials, and videographics.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== PROJECTS / PORTFOLIO SECTION ===== -->
+    <section id="projects" class="section section-alt">
+        <div class="container">
+            <h2 class="section-title" data-animate="fade-up">
+                <span class="section-number">06</span>Projects & Portfolio
+            </h2>
+
+            <!-- NOFBI Project -->
+            <div class="portfolio-featured" data-animate="fade-up">
+                <div class="featured-project">
+                    <div class="featured-icon">
+                        <i class="fas fa-satellite-dish"></i>
+                    </div>
+                    <div class="featured-content">
+                        <span class="featured-label">Featured IT Project</span>
+                        <h3>NOFBI Project – ICT Authority</h3>
+                        <p>National Optic Fibre Backbone Infrastructure — A major networking and telecommunications infrastructure project encountered during the ICT Authority attachment. Practical exposure to national-level fibre optic deployment, backbone network architecture, and large-scale connectivity implementation.</p>
+                        <div class="featured-tags">
+                            <span>Fibre Optic</span>
+                            <span>Backbone Infrastructure</span>
+                            <span>Field Deployment</span>
+                            <span>Government ICT</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Graphic Design Gallery -->
+            <h3 class="portfolio-subtitle" data-animate="fade-up">Graphic Design Portfolio</h3>
+            <div class="portfolio-gallery" data-animate="fade-up">
+
+                <!-- 1. Graduation Flyer -->
+                <div class="gallery-item" data-category="flyers" data-title="Graduation Flyer – Vivian Kyalo" data-desc="Congratulations graduation flyer for Vivian Kyalo, Class of 2026, Machakos Technical Institute for the Blind.">
+                    <div class="gallery-thumb">
+                        <img src="images/graduation-flyer.png" alt="Graduation Flyer – Vivian Kyalo">
+                        <div class="gallery-overlay">
+                            <i class="fas fa-search-plus"></i>
+                            <span>View</span>
+                        </div>
+                    </div>
+                    <p class="gallery-label">Graduation Flyer</p>
+                    <span class="gallery-cat">Flyers</span>
+                </div>
+
+                <!-- 2. Movie Poster – Reboot -->
+                <div class="gallery-item" data-category="posters" data-title="Movie Poster – Reboot: The Journey of Joe" data-desc="Inspirational cinematic poster design: Reboot – The Journey of Joe. Based on a true story of faith, focus, discipline, growth, and impact.">
+                    <div class="gallery-thumb">
+                        <img src="images/reboot-poster.png" alt="Movie Poster – Reboot: The Journey of Joe">
+                        <div class="gallery-overlay">
+                            <i class="fas fa-search-plus"></i>
+                            <span>View</span>
+                        </div>
+                    </div>
+                    <p class="gallery-label">Reboot: The Journey of Joe</p>
+                    <span class="gallery-cat">Posters</span>
+                </div>
+
+                <!-- 3. Football Club Logo – Kaloa FC -->
+                <div class="gallery-item" data-category="logos" data-title="Club Logo – Kaloa Football Club" data-desc="Shield emblem logo design for Kaloa Football Club featuring a soccer ball, wheat stalks, and the Wolf identity. Est. 2012.">
+                    <div class="gallery-thumb">
+                        <img src="images/kaloa-fc-logo.png" alt="Kaloa Football Club Logo">
+                        <div class="gallery-overlay">
+                            <i class="fas fa-search-plus"></i>
+                            <span>View</span>
+                        </div>
+                    </div>
+                    <p class="gallery-label">Kaloa FC Logo</p>
+                    <span class="gallery-cat">Logos & Branding</span>
+                </div>
+
+                <!-- 4. Placeholder: Event Graphics -->
+                <div class="gallery-item" data-category="events" data-title="Event Graphics" data-desc="Event graphics designs coming soon.">
+                    <div class="gallery-thumb">
+                        <div class="gallery-placeholder">
+                            <i class="fas fa-calendar-alt"></i>
+                            <span>Event Graphics</span>
+                        </div>
+                        <div class="gallery-overlay">
+                            <i class="fas fa-plus"></i>
+                            <span>Coming Soon</span>
+                        </div>
+                    </div>
+                    <p class="gallery-label">Event Graphics</p>
+                    <span class="gallery-cat">Events</span>
+                </div>
+
+                <!-- 5. Placeholder: Videographics -->
+                <div class="gallery-item" data-category="video" data-title="Videographics" data-desc="Videographics designs coming soon.">
+                    <div class="gallery-thumb">
+                        <div class="gallery-placeholder">
+                            <i class="fas fa-video"></i>
+                            <span>Videographics</span>
+                        </div>
+                        <div class="gallery-overlay">
+                            <i class="fas fa-plus"></i>
+                            <span>Coming Soon</span>
+                        </div>
+                    </div>
+                    <p class="gallery-label">Videographics</p>
+                    <span class="gallery-cat">Video</span>
+                </div>
+
+                <!-- 6. Placeholder: Promotional -->
+                <div class="gallery-item" data-category="promo" data-title="Promotional Designs" data-desc="Promotional designs coming soon.">
+                    <div class="gallery-thumb">
+                        <div class="gallery-placeholder">
+                            <i class="fas fa-bullhorn"></i>
+                            <span>Promotional</span>
+                        </div>
+                        <div class="gallery-overlay">
+                            <i class="fas fa-plus"></i>
+                            <span>Coming Soon</span>
+                        </div>
+                    </div>
+                    <p class="gallery-label">Promotional Designs</p>
+                    <span class="gallery-cat">Promotional</span>
+                </div>
+
+            </div>
+
+            <!-- Lightbox -->
+            <div class="lightbox" id="lightbox">
+                <button class="lightbox-close" id="lightboxClose">&times;</button>
+                <div class="lightbox-content" id="lightboxContent"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== CONTACT SECTION ===== -->
+    <section id="contact" class="section">
+        <div class="container">
+            <h2 class="section-title" data-animate="fade-up">
+                <span class="section-number">07</span>Contact
+            </h2>
+            <div class="contact-grid">
+                <div class="contact-info" data-animate="fade-right">
+                    <h3>Get In Touch</h3>
+                    <p>Feel free to reach out for collaborations, IT support, design projects, or just to connect!</p>
+                    <div class="contact-details">
+                        <a href="tel:0702763087" class="contact-item">
+                            <div class="contact-icon"><i class="fas fa-phone"></i></div>
+                            <div>
+                                <span class="contact-label">Phone</span>
+                                <span class="contact-value">0702763087</span>
+                            </div>
+                        </a>
+                        <a href="mailto:mbithijoe8@gmail.com" class="contact-item">
+                            <div class="contact-icon"><i class="fas fa-envelope"></i></div>
+                            <div>
+                                <span class="contact-label">Email</span>
+                                <span class="contact-value">mbithijoe8@gmail.com</span>
+                            </div>
+                        </a>
+                        <a href="https://instagram.com/mbithii6" target="_blank" class="contact-item">
+                            <div class="contact-icon"><i class="fab fa-instagram"></i></div>
+                            <div>
+                                <span class="contact-label">Instagram</span>
+                                <span class="contact-value">@mbithii6</span>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="contact-form-wrapper" data-animate="fade-left">
+                    <form class="contact-form" id="contactForm" action="https://api.web3forms.com/submit" method="POST">
+                        <!-- Replace YOUR_ACCESS_KEY below with your real Web3Forms key -->
+                        <input type="hidden" name="access_key" value="1a7d6847-8124-428e-a99f-c26c5c3d97fc">
+                        <input type="hidden" name="subject" value="New Portfolio Message from Website">
+                        <input type="hidden" name="from_name" value="Kioko Portfolio">
+                        <!-- Honeypot anti-spam -->
+                        <input type="checkbox" name="botcheck" style="display:none">
+
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" placeholder="Your name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" placeholder="Your email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="5" placeholder="Your message..." required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-full" id="submitBtn">
+                            <i class="fas fa-paper-plane"></i> Send Message
+                        </button>
+                        <div class="form-status" id="formStatus"></div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== FOOTER ===== -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h3>Kioko Joseph Mbithi</h3>
+                    <p>Information Technology · Networking · Cybersecurity · IT Support · Graphic Design</p>
+                </div>
+                <div class="footer-links">
+                    <a href="#home">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#education">Education</a>
+                    <a href="#experience">Experience</a>
+                    <a href="#skills">Skills</a>
+                    <a href="#services">Services</a>
+                    <a href="#projects">Projects</a>
+                    <a href="#contact">Contact</a>
+                </div>
+                <div class="footer-contact">
+                    <a href="tel:0702763087"><i class="fas fa-phone"></i> 0702763087</a>
+                    <a href="mailto:mbithijoe8@gmail.com"><i class="fas fa-envelope"></i> mbithijoe8@gmail.com</a>
+                    <a href="https://instagram.com/mbithii6" target="_blank"><i class="fab fa-instagram"></i> @mbithii6</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Kioko Joseph Mbithi. All rights reserved.</p>
+                <p class="footer-tagline">Building solutions. Solving problems. Connecting technology.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
